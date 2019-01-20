@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+protocol Environment {
+    static var session: URLSession { get }
+    static var puntersTestUrl: String { get }
+}
+
+// MARK: - Environment Configurations
+
+struct DevEnvionment: Environment {
+    static var session: URLSession = URLSession.shared
+    static var puntersTestUrl: String = "http://dnu5embx6omws.cloudfront.net/venues/weather.json"
+}
