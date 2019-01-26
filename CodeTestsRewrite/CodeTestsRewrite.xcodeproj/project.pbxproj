@@ -146,6 +146,7 @@
 				DC4B3FDF21E4BA7700ED40FF /* Screens */,
 				DC4B3FE921E4C1A800ED40FF /* Entities */,
 				DC4B3FDE21E4BA6B00ED40FF /* Extensions */,
+				DC92BA0121FBF75700AAD433 /* NetworkWithAlamofire */,
 				DC4B3FDD21E4BA5F00ED40FF /* Network */,
 				DC4B3FDC21E4BA5900ED40FF /* Data */,
 				DC4B3FDB21E4BA5200ED40FF /* Helpers */,
@@ -294,6 +295,13 @@
 				DC4B400F21F3597900ED40FF /* CountryTest.swift */,
 			);
 			path = EntitiesTests;
+			sourceTree = "<group>";
+		};
+		DC92BA0121FBF75700AAD433 /* NetworkWithAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkWithAlamofire;
 			sourceTree = "<group>";
 		};
 		DCCD6F0C21E36F3000E9AB48 = {

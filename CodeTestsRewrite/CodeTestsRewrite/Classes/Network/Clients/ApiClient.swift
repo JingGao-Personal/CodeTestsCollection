@@ -7,3 +7,16 @@
 //
 
 import RxSwift
+
+//protocol ApiClientType: ApiServiceInjected {
+//    func clientFetchData() -> Single<(entity: T, data: Data)>
+//}
+//
+//extension Network {
+//    struct ApiClient: ApiClientType {
+//        
+//        func clientFetchData() -> Single<(entity: T, data: Data)> {
+//            
+//        }
+//    }
+//}
