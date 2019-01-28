@@ -8,6 +8,8 @@ target 'CodeTestsRewrite' do
   # Pods for CodeTestsRewrite
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'RxAlamofire'
 
   target 'CodeTestsRewriteTests' do
     inherit! :search_paths

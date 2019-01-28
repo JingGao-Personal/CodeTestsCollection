@@ -147,6 +147,7 @@
 				DC4B3FE921E4C1A800ED40FF /* Entities */,
 				DC4B3FDE21E4BA6B00ED40FF /* Extensions */,
 				DC92BA0121FBF75700AAD433 /* NetworkWithAlamofire */,
+				DC92BA0221FBFAE700AAD433 /* NetworkWithRxAlamofire */,
 				DC4B3FDD21E4BA5F00ED40FF /* Network */,
 				DC4B3FDC21E4BA5900ED40FF /* Data */,
 				DC4B3FDB21E4BA5200ED40FF /* Helpers */,
@@ -302,6 +303,13 @@
 			children = (
 			);
 			path = NetworkWithAlamofire;
+			sourceTree = "<group>";
+		};
+		DC92BA0221FBFAE700AAD433 /* NetworkWithRxAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkWithRxAlamofire;
 			sourceTree = "<group>";
 		};
 		DCCD6F0C21E36F3000E9AB48 = {
@@ -625,6 +633,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CodeTestsRewrite/Pods-CodeTestsRewrite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -633,6 +643,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
